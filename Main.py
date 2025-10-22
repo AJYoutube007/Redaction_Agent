@@ -51,7 +51,7 @@ REDACTION_INDEX_NAME = "Redaction-Index"
 ENFORCE_CONTEXT_GROUNDING = True  # Set to True to make policy mandatory
 
 # Email Configuration
-DEFAULT_COMPLIANCE_EMAIL = os.getenv("COMPLIANCE_EMAIL", "Abhijagtap13@gmail.com")
+DEFAULT_COMPLIANCE_EMAIL = os.getenv("COMPLIANCE_EMAIL", "AddyourEmail@gmail.com")
 ENABLE_EMAIL_NOTIFICATIONS = os.getenv("ENABLE_EMAIL_NOTIFICATIONS", "true").lower() == "true"
 
 # Global variable for cleanup
