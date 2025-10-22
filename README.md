@@ -46,8 +46,6 @@ UiPath Orchestrator Setup
 
 ✅ (Optional) Context Grounding Index set up
 
-✅ API Credentials: Client ID, Client Secret, Tenant ID
-
 ✅ Enable Gemini API access & Generate API Key
 
 ✅ MCP Server (for Email Notifications)
