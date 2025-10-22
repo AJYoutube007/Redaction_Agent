@@ -1,0 +1,42 @@
+
+--- Authentication Error Log 2025-10-20 16:21:09 ---
+[
+  {
+    "timestamp": "2025-10-20T10:51:08.342Z",
+    "message": "Authentication started",
+    "params": {
+      "code": "72ed348a-a95c-4be3-a858-b21a7bab35c9.DDC5D7572680A83D0DFBA3447A212834D202A2EA38044B3412E41414B6A008AB",
+      "scope": "offline_access ProcessMining OrchestratorApiUserAccess StudioWebBackend IdentityServerApi ConnectionService DataService DocumentUnderstanding Du.Digitization.Api Du.Classification.Api Du.Extraction.Api Du.Validation.Api EnterpriseContextService Directory JamJamApi LLMGateway LLMOps OMS RCS.FolderAuthorization TM.Projects TM.TestCases TM.Requirements TM.TestSets",
+      "state": "MPa2tDvtN7Jl6ersVPTl_JEjrM0TiYXlc-1BqrvrEZ4",
+      "iss": "https://cloud.uipath.com/identity_"
+    }
+  }
+]
+
+--- Authentication Error Log 2025-10-20 16:25:34 ---
+[
+  {
+    "timestamp": "2025-10-20T10:55:33.760Z",
+    "message": "Authentication started",
+    "params": {
+      "code": "72ed348a-a95c-4be3-a858-b21a7bab35c9.1C967CDE6608E231F59C8AF13578BC0DB8F52DCF4CC323F1B104C5F3D7434EE5",
+      "scope": "offline_access ProcessMining OrchestratorApiUserAccess StudioWebBackend IdentityServerApi ConnectionService DataService DocumentUnderstanding Du.Digitization.Api Du.Classification.Api Du.Extraction.Api Du.Validation.Api EnterpriseContextService Directory JamJamApi LLMGateway LLMOps OMS RCS.FolderAuthorization TM.Projects TM.TestCases TM.Requirements TM.TestSets",
+      "state": "Nn9txPgFvxzkX_BtXBUcK89Vs4LPjwb586ePM_rGpvE",
+      "iss": "https://cloud.uipath.com/identity_"
+    }
+  }
+]
+
+--- Authentication Error Log 2025-10-20 16:31:16 ---
+[
+  {
+    "timestamp": "2025-10-20T11:01:14.997Z",
+    "message": "Authentication started",
+    "params": {
+      "code": "45cb5246-d95d-4166-a666-4baf9686c059.9825C6F3CB5EB158360A2CAEBDF084F2FE37716BE558B116AA40F99AFC7F4A84",
+      "scope": "offline_access ProcessMining OrchestratorApiUserAccess StudioWebBackend IdentityServerApi ConnectionService DataService DocumentUnderstanding Du.Digitization.Api Du.Classification.Api Du.Extraction.Api Du.Validation.Api EnterpriseContextService Directory JamJamApi LLMGateway LLMOps OMS RCS.FolderAuthorization TM.Projects TM.TestCases TM.Requirements TM.TestSets",
+      "state": "QAmUStjdpAuw56vsJkV8hg9c6ci0z7Cn4DfvpphH9i8",
+      "iss": "https://cloud.uipath.com/identity_"
+    }
+  }
+]

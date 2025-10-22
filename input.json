@@ -1,0 +1,7 @@
+{
+    "bucket_key": "SB_LangChain",
+    "output_bucket_key": "SB_LangChain_Output",
+    "file_path": "Redaction_Main.pdf",
+    "folder_path": "Shared",
+    "email_recipient" :"Abhijagtap13@gmail.com"
+}

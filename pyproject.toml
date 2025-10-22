@@ -1,0 +1,27 @@
+[project]
+name = "Redaction_Agent"
+version = "0.0.6"
+description = "Redaction_Agent"
+authors = [{ name = "Abhishek Jagtap", email = "Jagtapabhi13@gmail.com" }]
+
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "uipath>=0.1.0",
+    "python-dotenv>=1.0.0",
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.1",
+    "langchain-text-splitters>=0.0.1",
+    "langchain-google-genai>=0.0.1",
+    "mcp>=1.0.0",
+    "langchain-mcp-adapters>=0.1.0",
+    "pypdf>=3.0.0",
+    "PyMuPDF>=1.23.8",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = []
