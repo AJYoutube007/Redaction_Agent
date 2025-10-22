@@ -88,13 +88,13 @@ Create a .env file in the project root:
 ```bash
 Create an input bucket (e.g., SB_LangChain)
 Create an output bucket (e.g., SB_LangChain_Output)
-Upload test PDFs to the input bucket
+Upload test PDFs to the input bucket **(Test Files are in Test_Files folder )**
 ```
 
 5️⃣.Set up Context Grounding Index (Optional)
 ```bash
 Create a Context Grounding index named Redaction-Index
-Upload your redaction policy document (DOCX/PDF format)
+Upload your redaction policy document (DOCX/PDF format) **(Redaction-policy is in Test_Files folder )**
 Ensure the document contains:
 
 FOCUS ON / MUST REDACT: Values that should always be redacted
@@ -102,3 +102,20 @@ IGNORE / SAFE VALUES: Values that should never be redacted
 
 Run index ingestion in Orchestrator
 ```
+6️⃣. Authenticate with UiPath
+ ```bash
+ 	uipath auth
+ ```
+7️⃣ . Package the project
+ ```bash
+ 	uipath pack
+ ```
+8️⃣ Publish the project
+ ```bash
+ 	uipath publish
+ ```
+
+9️⃣To run the agent locally:
+```bash
+uipath run main.py -f input.json
+ ```
